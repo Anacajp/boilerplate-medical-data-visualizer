@@ -42,7 +42,7 @@ Por cada número no arquivo medical_data_visualizer.py, adicione o código da in
 1 - Importe os dados do medical_examination.csv e atribua-os à variável df.
 
 2 - Crie a coluna overweight na variável df.
-    
+
 3 - Normalize os dados, fazendo com que 0 seja sempre bom e 1 seja sempre ruim. Se o valor de cholesterol ou gluc for 1, defina o valor como 0. Se o valor for superior a 1, defina o valor como 1.
 
 4 - Desenhe o Gráfico Categórico na função draw_cat_plot.
@@ -74,6 +74,3 @@ Por cada número no arquivo medical_data_visualizer.py, adicione o código da in
 15 - Configure a figura do matplotlib.
 
 16 - Plote a matriz de correlação usando o método fornecido pela biblioteca seaborn: sns.heatmap().
-
-
-*Não modifique as duas linhas seguintes.*
